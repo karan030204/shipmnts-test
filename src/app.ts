@@ -20,9 +20,6 @@ app.use(cookieParser());
 
 app.use('/v1',EmailRouter)
 
-app.get('/', (req: Request, res: Response) => {
-  res.send('Hello, TypeScript with Express!');
-});
 
 
 
