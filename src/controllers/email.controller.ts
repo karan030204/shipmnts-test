@@ -42,7 +42,7 @@ const email_scheduler = async (req: Request, res: Response) => {
       from: 'info@demomailtrap.com',
       to: recipient_email,
       subject: subject,
-      body: body,
+      text: body,
     };
 
     // Extract hour and minute from time
